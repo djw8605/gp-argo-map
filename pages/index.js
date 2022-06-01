@@ -80,7 +80,7 @@ export default function Home() {
             </div>
             <div className='col-md-4'>
               <div className='embed-responsive embed-responsive-16by9'>
-                <iframe className='embed-responsive-item' src="https://gracc.opensciencegrid.org/d-solo/000000079/site-summary?orgId=1&var-interval=7d&var-site=GP-ARGO&var-type=Batch&panelId=22&from=now-6M&to=now" width="100%" height="250" frameBorder="1"></iframe>
+                <iframe className='embed-responsive-item' src="https://gracc.opensciencegrid.org/d-solo/000000079/site-summary?orgId=1&var-interval=%24__auto_interval_interval&var-site=All&var-type=Batch&var-Filter=OIM_Facility%7C%3D%7CGreat+Plains+Network&from=now-6M&to=now&panelId=22" width="100%" height="250" frameBorder="1"></iframe>
               </div>
             </div>
           </div>
