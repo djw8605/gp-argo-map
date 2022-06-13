@@ -121,11 +121,11 @@
       "hostname": "astate.gp-argo.greatplains.net"
     },
     {
-      "name": "KanREN",
-      "url": "https://www.kanren.net/",
-      "logo": "/images/kanren.png",
-      "lat": 38.416395122763326,
-      "log": -96.17927150198692,
+      "name": "Emporia State University",
+      "url": "https://www.emporia.edu/",
+      "logo": "/images/esu.png",
+      "lat": 38.41626062326386,
+      "log": -96.17925004470031,
       "hostname": "kanren.gp-argo.greatplains.net"
     }
   ]
