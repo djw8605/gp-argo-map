@@ -127,6 +127,14 @@
       "lat": 38.41626062326386,
       "log": -96.17925004470031,
       "hostname": "kanren.gp-argo.greatplains.net"
+    },
+    {
+      "name": "Missouri S&T",
+      "url": "https://www.mst.edu/",
+      "logo": "/images/mst.png", 
+      "lat": 37.95365402665969,
+      "log": -91.77515432284582,
+      "hostname": "mst.gp-argo.greatplains.net"
     }
   ]
 }
