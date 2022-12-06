@@ -135,6 +135,14 @@
       "lat": 37.95365402665969,
       "log": -91.77515432284582,
       "hostname": "mst.gp-argo.greatplains.net"
+    },
+    {
+      "name": "Cameron University",
+      "url": "https://www.cameron.edu/",
+      "logo": "/images/cameron.png",
+      "lat": 34.60517821859388,
+      "log": -98.43616890049692,
+      "hostname": "mst.gp-argo.greatplains.net"
     }
   ]
 }
