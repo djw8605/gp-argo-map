@@ -142,7 +142,15 @@
       "logo": "/images/cameron.png",
       "lat": 34.60517821859388,
       "log": -98.43616890049692,
-      "hostname": "mst.gp-argo.greatplains.net"
+      "hostname": "cameron.gp-argo.greatplains.net"
+    },
+    {
+      "name": "Doane University",
+      "url": "https://www.doane.edu/",
+      "logo": "/images/doane.png",
+      "lat": 40.62305169886312,
+      "log": -96.95095627334094,
+      "hostname": "doane.gp-argo.greatplains.net"
     }
   ]
 }
