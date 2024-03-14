@@ -1,4 +1,5 @@
-const { Client } = require('@elastic/elasticsearch')
+//const { Client } = require('@elastic/elasticsearch')
+const { Client } = require("@opensearch-project/opensearch");
 const client = new Client({ node: 'https://gracc.opensciencegrid.org' })
 
 
@@ -73,7 +74,7 @@ export default async function handler(req, res) {
   //console.log(result.aggregations.buckets);
   var projects = new Array();
 
-  result.aggregations.projects.buckets.forEach(function (bucket) {
+  result.body.aggregations.projects.buckets.forEach(function (bucket) {
     try {
       var project = {
         'name': bucket.key,

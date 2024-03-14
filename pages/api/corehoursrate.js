@@ -1,4 +1,5 @@
-const { Client } = require('@elastic/elasticsearch')
+//const { Client } = require('@elastic/elasticsearch')
+const { Client } = require("@opensearch-project/opensearch");
 const client = new Client({ node: 'https://gracc.opensciencegrid.org' })
 
 export default async function handler(req, res) {
@@ -44,7 +45,7 @@ export default async function handler(req, res) {
     }
   });
   console.log("Finished request to gracc.opensciencegrid.org");
-  console.log(result);
+  console.log(result.body);
   res.setHeader('Cache-Control', 's-maxage=900, stale-while-revalidate')
-  res.status(200).json({ corehoursrate: result.aggregations.corehours.value / (365 * 24 * 3600) });
+  res.status(200).json({ corehoursrate: result.body.aggregations.corehours.value / (365 * 24 * 3600) });
 }
